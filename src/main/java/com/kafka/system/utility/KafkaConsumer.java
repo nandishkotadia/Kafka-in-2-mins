@@ -1,4 +1,4 @@
-package com.kafka.utility.system;
+package com.kafka.system.utility;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;

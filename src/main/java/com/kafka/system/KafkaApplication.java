@@ -1,4 +1,4 @@
-package com.kafka.utility.system;
+package com.kafka.system;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @EnableAsync
-@ComponentScan(basePackages = {"com.kafka.utility"})
+@ComponentScan(basePackages = {"com.kafka.system"})
 public class kafkaApplication {	
 	public static void main(String[] args) throws IOException {
 		try(

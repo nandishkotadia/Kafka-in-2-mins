@@ -1,12 +1,13 @@
-package com.kafka.utility.system;
+package com.kafka.system;
 
 import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
+
+import com.kafka.system.utility.KafkaConsumer;
 
 import kafka.consumer.ConsumerIterator;
 import kafka.consumer.KafkaStream;
