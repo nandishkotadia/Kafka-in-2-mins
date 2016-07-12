@@ -15,7 +15,7 @@ import kafka.consumer.KafkaStream;
 import kafka.javaapi.consumer.ConsumerConnector;
 
 @Component
-public class KafkaConsumer implements AutoCloseable{
+public class KafkaConsumer {
 	
 	/*
 	 * Returns the kafka consumer stream list 
@@ -42,8 +42,4 @@ public class KafkaConsumer implements AutoCloseable{
 		return null;
 	}
 
-	@Override
-	public void close() throws Exception {
-		
-	}
 }
