@@ -4,9 +4,7 @@ import java.io.IOException;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.scheduling.annotation.EnableAsync;
 
-@EnableAsync
 @ComponentScan(basePackages = {"com.kafka.system"})
 public class kafkaApplication {	
 	public static void main(String[] args) throws IOException {
