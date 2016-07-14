@@ -5,6 +5,7 @@ Step 1: Download the code
 Download the 0.10.0.0 release and un-tar it.
 > tar -xzf kafka_2.11-0.10.0.0.tgz
 > cd kafka_2.11-0.10.0.0
+
 Step 2: Start the server
 
 Kafka uses ZooKeeper so you need to first start a ZooKeeper server if you don't already have one. You can use the convenience script packaged with kafka to get a quick-and-dirty single-node ZooKeeper instance.
@@ -101,4 +102,3 @@ We can now see that topic if we run the list topic command:
 > bin/kafka-topics.sh --list --zookeeper localhost:2181
 test
 Alternatively, instead of manually creating topics you can also configure your brokers to auto-create topics when a non-existent topic is published to.  
-
